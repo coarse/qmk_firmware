@@ -3,3 +3,4 @@
 #   the appropriate keymap folder that will get included automatically
 #
 CONSOLE_ENABLE = no         # Console for debug(+400)
+LEADER_ENABLE = yes

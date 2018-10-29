@@ -6,8 +6,6 @@
 // entirely and just use numbers.
 #define _BL 0
 #define _FL 1
-#define _______ KC_TRNS
-
 LEADER_EXTERNS();
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
