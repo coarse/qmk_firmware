@@ -15,6 +15,7 @@
  */
 
 #include QMK_KEYBOARD_H
+#include <print.h>
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   /* Keymap _BL: (Base Layer) Default Layer
@@ -40,6 +41,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 void matrix_init_user(void) {
   //user initialization
+  print("hello world!");
 }
 
 void matrix_scan_user(void) {

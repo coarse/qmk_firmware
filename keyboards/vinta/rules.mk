@@ -1,4 +1,5 @@
 # project specific files
+SRC = ws2812.c
 
 ## chip/board settings
 # - the next two should match the directories in
@@ -29,7 +30,7 @@ ARMV = 6
 # 0x00000000-0x00001000 area is occupied by bootlaoder.*/
 # The CORTEX_VTOR... is needed only for MCHCK/Infinity KB
 #OPT_DEFS = -DCORTEX_VTOR_INIT=0x00001000
-OPT_DEFS = 
+OPT_DEFS =
 
 # Options to pass to dfu-util when flashing
 DFU_ARGS = -d 0483:df11 -a 0 -s 0x08000000
@@ -44,4 +45,3 @@ EXTRAKEY_ENABLE = yes				# Audio control and System control
 CONSOLE_ENABLE = no					# Console for debug
 COMMAND_ENABLE = no    				# Commands for debug and configuration
 NKRO_ENABLE = yes					# USB Nkey Rollover
-NO_USB_STARTUP_CHECK = no         	# Disable initialization only when usb is plugged in

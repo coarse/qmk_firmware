@@ -158,6 +158,7 @@
 #define LINE_BOOT0                  PAL_LINE(GPIOB, 8U)
 #define LINE_SWCLK                  PAL_LINE(GPIOA, 14U)
 #define LINE_SWDIO                  PAL_LINE(GPIOA, 13U)
+#define LINE_WS2812                 PAL_LINE(GPIOB, 1U)
 
 /*
  * I/O ports initial setup, this configuration is established soon after reset
