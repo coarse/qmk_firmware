@@ -44,4 +44,4 @@ util/docker_build.sh
 
 On Windows and macOS, it requires [Docker Machine](http://gw.tnode.com/docker/docker-machine-with-usb-support-on-windows-macos/) to be running. This is tedious to set up, so it's not recommended; use [QMK Toolbox](https://github.com/qmk/qmk_toolbox) instead.
 
-!> Docker for Windows requires [Hyper-V](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v) to be enabled. This means that it cannot work on versions of Windows which don't have Hyper-V, such as Windows 7, Windows 8 and **Windows 10 Home**.
+!> Docker for Windows requires [Hyper-V](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v) or WSL 2 to be enabled. This means that it cannot work on versions of Windows which don't have Hyper-V nor WSL 2, such as Windows 7, Windows 8 and Windows 10 Home with builds lower than 19040. If you are running on Windows 10 Home with a build number 19040 or higher, than you will be able to use Docker for Windows using WSL 2.
