@@ -28,8 +28,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DESCRIPTION basicpad
 
 /* key matrix size */
-#define MATRIX_ROWS 16
-#define MATRIX_COLS 5
+#define MATRIX_ROWS 5
+#define MATRIX_COLS 16
 
 #define MATRIX_COL_PINS { C14, C13, B5, B4, B3, A15, A5, A10, A8, B14, A9, A4, A3, A6, A7, B0 }
 #define MATRIX_ROW_PINS { B11, B10, B12, B6, B7 }
